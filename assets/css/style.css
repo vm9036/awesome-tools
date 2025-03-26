@@ -1,0 +1,255 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    width: 100%;
+    padding-right: calc(var(--bs-gutter-x)* .5);
+    padding-left: calc(var(--bs-gutter-x)* .5);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+body{
+    max-width: 2000px;
+    width: 100%;
+    margin: 0 auto ;
+    font-family: Arial, sans-serif;
+}
+
+@media (min-width: 1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
+
+
+.header_part{
+    background: #121926;
+    padding: 20px 0;
+}
+
+.main_header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo .fa-brands{
+    font-size: 30px;
+    color: #15c996;
+}
+
+.logo .tool_text{
+    font-size: 15px;
+    color: #e6eceb;
+}
+
+.menu_logo{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.menu_logo .fa-gamepad{
+    font-size: 23px;
+    color: #15c996;
+}
+
+.menu_logo p{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.menu_logo .game_text{
+    font-size: 10px;
+    color: #15c996;
+}
+
+.menu_logo .icon{
+    font-size: 17px;
+}
+
+.menu_logo button{
+    background: rgb(55, 58, 59);;
+    color: white;
+    padding: 5px 7px;
+    border: none;
+    cursor: pointer;
+}
+
+/* main header part finish */
+
+/* main hero is start */
+
+.main_hero{
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main_hero_content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: white;
+}
+
+.main_hero_content h2{
+    font-size: 45px;
+}
+
+.main_hero_content .color{
+    color: #15c996;
+}
+
+.main_hero_content p{
+    width: 57%;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 22px;
+}
+
+.main_hero_content input{
+    width: 57%;
+    padding: 10px;
+    background-color: #202938;
+    border: 1px solid #2e3a4e;
+    border-radius: 5px;
+}
+
+input::placeholder {
+    color: white;
+    padding-left: 22px;
+}
+
+.main_img {
+    display: flex;
+    align-items: center;
+}
+
+.main_img img{
+    width: 100%;
+}
+
+.btns button {
+    background: #0b0c0c;
+    color: white;
+    padding: 10px 12px;
+    border: 1px solid #2e3a4e;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main_hero_content .custom{
+    font-size: 13px;
+}
+
+/* main hero finish */
+
+/* main features start */
+
+.feature_part{
+    padding-block: 30px;
+    background: #2a303c;
+}
+
+.feature_product{
+    padding-block: 30px 20px;
+}
+
+.feature_product h3{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 22px;
+    color: white;
+}
+
+.feature_product_company{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.feature_product_company p{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.feature_product_company p i{
+    font-size: 40px;
+}
+
+.feature_product_company p span{
+    font-size: 16px;
+    color: white;
+    font-weight: 800;
+}
+
+.feature_product_company .fa-dev{
+    color: #2c63ff;
+}
+
+.feature_product_company .fa-hashnode{
+    color: #2c63ff;
+}
+
+.feature_product_company .fa-hackerrank{
+    color:#11f313;
+}
+
+.feature_product_company .fa-reddit{
+    color: #fc4703;
+}
+
+.feature_product_company .fa-product-hunt{
+    color: #d95727;
+}
+
+.feature_product_company .fa-cloud{
+    color:#2b91e2;
+}
+
+/* feature_product_company finish */
+
+/* feature_tool_categories start */
+
+.feature_tool_catgories_heading h3{
+    text-align: center;
+    margin-block: 40px 20px;
+    font-size: 22px;
+    color: white;
+}
+
+.tool_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.tool_btns button{
+    background: #0b0c0c;
+    color: white;
+    padding: 21px 22px;
+    border: 1px solid #2e3a4e;
+    cursor: pointer;
+    border-radius: 10px;
+    width: 24%;
+    font-size: 20px;
+}
