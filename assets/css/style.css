@@ -387,6 +387,10 @@ input::placeholder {
 
     /* main hero start */
 
+    .main_hero{
+        flex-direction: column;
+    }
+
     .main_hero_content h2 {
         text-align: center;
     }
