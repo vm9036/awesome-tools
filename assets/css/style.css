@@ -404,6 +404,10 @@ input::placeholder {
         padding-inline: 30px;
     }
 
+    .main_hero_content input {
+        width: 100%;
+    }
+
     .main_hero_content .custom {
         font-size: 20px;
     }
